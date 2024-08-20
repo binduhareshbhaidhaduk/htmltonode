@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+
+.jumbotron {
+    background-color: #007bff;
+    color: #f8f9fa;
+}
+
+/* Header */
+.navbar {
+    background-color: #343a40;
+}
+.navbar-brand,
+.nav-link {
+    color: #f8f9fa !important;
+}
+.nav-link:hover {
+    color: #ffca28 !important;
+}
+
+/* Jumbotron */
+.home {
+    background-image: url('../image/creative-design-suncode-co-erbil.png');
+    background-size: cover;
+    background-position: center;
+    color: #f8f9fa;
+    min-height: 100vh; /* Make sure it covers the whole viewport height */
+}
+.about{
+    background-image: url('../image/AI-Graphic-design-tools.webp');
+    background-size: cover;
+    background-position: center;
+    color: #f8f9fa;
+    min-height: 100vh;
+}
+.feature{
+    background-image: url('../image/54-creative.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    min-height: 100vh;
+}
+
+/* Features Section */
+.img-fluid {
+    width: 150px;
+    height: 150px;
+}
+.col-md-4 h3 {
+    color: #007bff;
+}
+.col-md-4 p {
+    color: #212529;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+
